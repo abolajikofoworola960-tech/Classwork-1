@@ -35,7 +35,7 @@ const student =[
     },
 ];
 app.get("/user",(req,res)=>{
-    res.json(user);
+    res.json(student);
 });
 
 app.listen(port,()=>{
